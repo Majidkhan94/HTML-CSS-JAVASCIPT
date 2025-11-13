@@ -1,0 +1,70 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+.container
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: darkcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Digital-Clock
+{
+  width: 350px;
+  height: 350px;
+  background-color: darkslategray;
+  border-radius: 10px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+}
+.screen
+{
+  width: 90%;
+  height: 70px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 77px);
+  gap: 5px;
+  justify-content: start;
+}
+.btn {
+  background-color: #008d8d;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: #008d8d;
+}
+.btn-c
+{
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
