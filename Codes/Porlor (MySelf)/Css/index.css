@@ -1,0 +1,612 @@
+:root {
+  --primary: #895b27;
+  --hover: #ffd09a;
+  --text: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.banner
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0px;
+}
+.banner img
+{
+  filter: brightness(0.5);
+  width: 100%;
+  height: 100%;
+ 
+}
+.banner .detail
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: var(--text);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.banner .detail h1
+{
+  font-size: 65px;
+}
+.banner .detail p
+{
+  font-size: 24px;
+  padding: 25px 0px;
+}
+.banner .detail a
+{
+    padding: 15px 30px;
+    background-color: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.banner .detail a:hover
+{
+  background-color: var(--hover);
+  color: var(--primary);
+}
+.about
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 5px;
+}
+.aboutdetail, .aboutpic
+{
+  flex: 1;
+}
+.about .aboutdetail
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 50px;
+}
+.about .aboutdetail h2
+{
+  font-size: 50px;
+  color: var(--primary);
+}
+.about .aboutdetail a
+{
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.about .aboutdetail a:hover
+{
+  background-color: var(--hover);
+  color: var(--primary);
+}
+.about .aboutpic img
+{
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  border-radius: 30px 0px 0px 30px;
+}
+
+.services
+{
+
+  padding: 15px 50px;
+  background: linear-gradient(to bottom, var(--hover), var(--primary));
+
+}
+.services h2
+{
+  font-size: 50px;
+  color: var(--primary);
+  padding-bottom: 15px;
+}
+.maincard
+{
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.card
+{
+  flex: 0 0 24%;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.cardpic
+{
+  background-color: var(--hover);
+  width: 100%;
+  height: 300px;
+  
+  
+}
+.cardpic img
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+.carddetails
+{
+  position: absolute;
+  z-index: 1;
+  bottom: -45px;
+  left: 0;
+  text-align: center;
+  padding: 16px 10px;
+  color: var(--primary);
+  background-color: var(--hover);
+  margin-bottom: -10px;
+  transition: all 1s linear;
+}
+.card:hover .carddetails 
+{
+  bottom: 10px;
+  
+}
+.carddetails p
+{
+  font-size: 14px;
+  padding-top: 10px;
+  color: black;
+}
+
+.service-marquee {
+  background-color: var(--hover);
+  color: var(--primary);
+  padding: 30px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.products
+{
+  padding: 15px 50px;
+}
+.products h2
+{
+  font-size: 50px;
+  color: var(--primary);
+  padding-bottom: 15px;
+}
+.productmaincard
+{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.productcard
+{
+  flex: 0 0 24%;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+.productcardpic
+{
+  width: 100%;
+  height: 200px;
+  
+  
+}
+.productcardpic img
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+  /* position: absolute; */
+  top: 0px;
+  left: 0px;
+
+}
+.productcarddetails
+{
+  /* position: absolute; */
+  z-index: 1;
+  bottom: -45px;
+  left: 0;
+  text-align: center;
+  padding: 10px 0px 25px 0px;
+  color: var(--primary);
+  margin-bottom: -10px;
+  transition: all 1s linear;
+}
+.productcarddetails p 
+{
+  padding: 0px 0px 10px 0px;
+}
+
+
+.testimonials {
+  margin-top: 40px;
+  padding: 30px 4% 50px 4%;
+  background: var(--hover);
+  /* text-align: center; */
+}
+
+.testimonials h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.testimonialcards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.testimonialcard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.testimonialcard p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.testimonialcard h4 {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.contactus {
+  padding: 30px 4%;
+}
+
+.contactus h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: var(--primary);
+}
+
+.contactwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contactinfo {
+  flex: 1 1 300px;
+  font-size: 16px;
+  color: #333;
+  line-height: 3;
+
+}
+
+.contactform {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactform input,
+.contactform textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contactform .btn {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: all 0.5s linear;
+}
+
+.contactform .btn:hover {
+  background-color: var(--hover);
+  color: var(--primary);
+}
+
+
+@media (max-width: 768px) {
+
+ /* ===== Banner ===== */
+  .banner {
+    padding-top: 100px;
+  }
+
+  .banner img {
+    height: 60vh;
+  }
+
+  .banner .detail {
+    top: 55%;
+  }
+
+  .banner .detail h1 {
+    font-size: 32px;
+    padding: 0 10px;
+  }
+
+  .banner .detail p {
+    font-size: 16px;
+    padding: 15px 10px;
+  }
+
+  .banner .detail a {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* ===== About Section ===== */
+  .about {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about .aboutdetail {
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about .aboutdetail h2 {
+    font-size: 36px;
+  }
+
+  .about .aboutdetail p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .about .aboutpic img {
+    width: 100%;
+    border-radius: 0;
+    height: 280px;
+    object-fit: cover;
+  }
+
+  /* ===== Services Section ===== */
+  .services {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .services h2 {
+    font-size: 36px;
+  }
+
+  .maincard {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .card {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .cardpic {
+    height: 200px;
+  }
+
+  .carddetails {
+    position: static;
+    background-color: var(--hover);
+    padding: 15px;
+    color: var(--primary);
+    transition: none;
+  }
+
+  .carddetails h3 {
+    font-size: 20px;
+  }
+
+  .carddetails p {
+    font-size: 14px;
+  }
+
+  /* ===== Marquee ===== */
+  .service-marquee {
+    font-size: 14px;
+    padding: 15px 5px;
+  }
+
+  /* ===== Products Section ===== */
+  .products {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .products h2 {
+    font-size: 36px;
+  }
+
+  .productmaincard {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .productcard {
+    flex: 1 1 100%;
+  }
+
+  .productcardpic {
+    height: 200px;
+  }
+
+  .productcarddetails {
+    padding-bottom: 40px;
+  }
+
+  .productcarddetails h3 {
+    font-size: 18px;
+  }
+
+  .productcarddetails p {
+    font-size: 14px;
+  }
+
+  .productcarddetails .btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  /* ===== Testimonials ===== */
+  .testimonials {
+    padding: 30px 20px;
+  }
+
+  .testimonials h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .testimonialcards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .testimonialcard {
+    flex: 1 1 100%;
+  }
+
+  .testimonialcard p {
+    font-size: 14px;
+  }
+
+  /* ===== Contact Us ===== */
+  .contactus {
+    padding: 30px 20px;
+  }
+
+  .contactus h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .contactwrapper {
+    gap: 40px;
+  }
+
+  .contactinfo {
+    text-align: center;
+    line-height: 2;
+  }
+
+  .contactform {
+    width: 100%;
+  }
+
+  .contactform input,
+  .contactform textarea {
+    font-size: 14px;
+  }
+
+  .contactform .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  /* ===== Map Section ===== */
+  .mapsection iframe {
+    height: 250px;
+  }
+
+  /* ===== Footer ===== */
+  .fwidget {
+    flex: 0 0 150px;
+  }
+
+  footer .fcontainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    padding: 30px 20px;
+  }
+
+  footer .fwidget h2 {
+    font-size: 20px;
+  }
+
+  footer .fwidget ul {
+    padding: 0;
+  }
+
+  footer .fwidget ul li {
+    margin: 5px 0;
+  }
+
+  .footer-logo {
+    width: 130px;
+  }
+
+  .social-icons {
+    margin-bottom: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+}
