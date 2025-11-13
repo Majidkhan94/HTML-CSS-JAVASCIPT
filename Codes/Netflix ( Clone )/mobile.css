@@ -1,0 +1,132 @@
+/* Mobile Responsive CSS */
+@media only screen and (max-width: 768px) {
+  
+  .container {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 5% 5%;
+  }
+
+  .container h1 {
+    font-size: 30px;
+  }
+
+  .container a {
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+.banner {
+    height: 70vh;
+}
+
+
+  .banner-content{
+    width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+  }
+
+  .banner-content h2 {
+    font-size: 16px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+    padding: 15px 0;
+  }
+
+  .email input {
+    width: 70%;
+    /* padding-top: 12px; */
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+  .email a {
+    padding: 8px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+
+
+  .trending h2{
+    text-align: center;
+  }
+  .Reasons h2{
+    text-align: center;
+  }
+
+
+  .maincard {
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .card .number {
+    font-size: 50px;
+    left: -30px;
+  }
+
+  .Reasons .card .number h3 {
+    font-size: 16px;
+    text-align: center;
+
+  }
+  .Reasons .card .number {
+    align-items: center;
+
+  }
+
+  .Reasons .card .number p {
+    font-size: 12px;
+    text-align: center;
+
+  }
+
+.faq h2{
+    text-align: center;
+}
+
+  .faq-question {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .faq-answer p {
+    font-size: 14px;
+    padding: 15px 0;
+  }
+
+  .get-started p {
+    font-size: 16px;
+  }
+
+  .email-form input {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .email-form .btn {
+    font-size: 18px;
+    padding: 8px 20px;
+    margin-left: 0;
+  }
+  .footer-links h2{
+        text-align: center;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    text-align: center;
+  }
+}
