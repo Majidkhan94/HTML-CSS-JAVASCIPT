@@ -1,0 +1,110 @@
+/* ---------- MOBILE VERSION ONLY ---------- */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    /* flex-direction: column; */
+    align-items: stretch;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .left-section {
+    justify-content: center;
+  }
+
+  .center-section {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .center-section input {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .search-btn, .mic-btn {
+    display: none;
+  }
+
+  .right-section {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .create-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  /* Hide sidebar for mobile */
+  aside {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    position: static;
+  }
+
+  .container .maincontent {
+    width: 100%;
+    left: 0;
+    position: relative;
+  }
+
+  .maincontent .buttons {
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .maincontent .buttons a {
+    flex-shrink: 0;
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .maincard {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .maincard .card {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .carddetail {
+    align-items: center;
+    gap: 10px;
+  }
+
+  .carddetail h3 {
+    font-size: 14px;
+  }
+
+  .carddetail h4 {
+    font-size: 12px;
+  }
+
+  .carddetail p {
+    font-size: 10px;
+  }
+
+  .cardpro img {
+    width: 35px;
+    height: 35px;
+  }
+}
