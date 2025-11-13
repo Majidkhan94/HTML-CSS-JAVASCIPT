@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="index.css">
+  <title>Search Student</title>
+  
+</head>
+<body>
+
+  <h2>🔎 Search Student in List</h2>
+  <input type="text" id="searchBox" placeholder="Type student name..." />
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ali Khan</td>
+        <td>Lahore</td>
+        <td>03001234567</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Majid Khan</td>
+        <td>Multan</td>
+        <td>03009876543</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ahmed Raza</td>
+        <td>Karachi</td>
+        <td>03111234567</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Fatima Noor</td>
+        <td>Islamabad</td>
+        <td>03451239876</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="no-results" style="display: none;">No matching students found.</div>
+
+  
+<script src="index.js"></script>
+</body>
+</html>

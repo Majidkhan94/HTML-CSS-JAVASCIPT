@@ -1,0 +1,50 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    #searchBox {
+      width: 100%;
+      max-width: 400px;
+      padding: 10px;
+      margin: 0 auto 20px auto;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #eee;
+      text-align: left;
+    }
+
+    th {
+      background: #007bff;
+      color: white;
+    }
+
+    tr:hover {
+      background: #f1f1f1;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 20px;
+      color: #999;
+    }
