@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission_Form</title>
+  <style>
+    *
+    {
+      margin: 0px;
+      padding: 0px;
+      font-family: Helvetica;
+    }
+    body
+    {
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    }
+    .container
+    {
+     
+      width: 60%;
+      border-radius: 5px;
+      border: 1px solid #b7b7b7;
+      /* padding: 20px; */
+    }
+    
+    .header
+    {
+      text-align: center;
+      background-color: cadetblue;
+      color: white;
+      padding: 20px;
+    }
+    .header h1
+    {
+      font-size: 40px;
+    }
+    .header p 
+    {
+      font-size: 12px;
+    }
+    .main
+    {
+      padding: 0px 20px 80px 20px;
+    }
+    .section1
+    {
+      display: flex;
+      width: 100%;
+      padding: 10px 0px 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b7b7b7;
+    margin-bottom: 20px;
+    }
+    .date
+    {
+        float: left;
+        /* width: 50%; */
+    }
+    .picture
+    {
+        border: 1px solid #b7b7b7;
+    /* float: right; */
+    font-size: 12px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    }
+    label
+    {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .section2
+    {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .section2 input
+    {
+      width: 10%;
+      width: 30%;
+    border: none;
+    border-bottom: 1px solid #b7b7b7;
+    }
+    .section3
+    {
+      padding: 10px 0px 10px 12px;
+    }
+    .section3 .preminent
+    {
+      padding: 10px 0px 16px 0px;
+    }
+    .section3 input
+    {
+      width: 81%;
+      border: none;
+    border-bottom: 1px solid #b7b7b7;
+    }
+    .class
+    {
+      margin-left: 16px;
+    }
+    .section4
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 7px;
+    margin-left: 5px;
+    }
+    .section4 input
+    {
+      border: none;
+      border-bottom: 1px solid #b7b7b7;
+    }
+    .section5
+    {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px 18px 0px;
+    margin-left: 5px;
+    font-size: 12px;
+    }
+    .signature
+    {
+      display: flex
+;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="header">
+      <h1>Admission Form</h1>
+      <p>The student can fill all sections in this admission form.</p>
+    </div>
+    <div class="main">
+    <div class="section1">
+      <div class="date">
+      <label for="date">Date :</label>
+      <input type="date">
+      </div>
+      <div class="picture">Photo Here</div>
+    </div>
+    <div class="section2">
+      <label for="Name">Student's Name :</label>
+      <input type="text">
+      <label for="Name">Father's Name :</label>
+      <input type="text">
+    </div>
+    <div class="section3">
+      <div class="preminent">
+      <label for="Name">Perminent Address :</label>
+      <input type="text">
+      </div>
+      <div class="present"></div>
+      <label for="Name">Present Address :</label>
+      <input type="text" class="class">
+      </div>
+
+    <div class="section4">
+      <label for="Name">Date of Birth :</label>
+      <input type="text">
+      <label for="Name">Mobile No :</label>
+      <input type="text">
+      <label for="Name">Nationality :</label>
+      <input type="text">
+    </div>
+
+     <div class="section3">
+    <div class="preminent">
+      <label for="Name">Birth Register No :</label>
+      <input type="text">
+      </div>
+</div>
+
+    <div class="section5">
+      <label for="Name">Religion :</label>
+      <input type="checkbox">Islam
+      <input type="checkbox">Hindu
+      <input type="checkbox">Christian
+      <br>
+      <label for="Name">Sex :</label>
+      <input type="checkbox">Male
+      <input type="checkbox">Female
+      <br>
+      <label for="Name">Group :</label>
+      <input type="checkbox">Science
+      <input type="checkbox">Art
+      <input type="checkbox">Bussiness
+
+   </div>
+
+   <div class="section4">
+      <label for="Name">Class :</label>
+      <input type="text">
+      <label for="Name">Class Roll No :</label>
+      <input type="text">
+      <label for="Name">Registration No :</label>
+      <input type="text">
+    </div>
+
+<div class="signature">
+  <p>Signature of Student</p>
+  <p>Signature of Office Assistant</p>
+  <p>Signature of Headmaster</p>
+
+</div>
+
+
+
+
+
+
+
+  </div>
+  </div>
+  
+</body>
+</html>
