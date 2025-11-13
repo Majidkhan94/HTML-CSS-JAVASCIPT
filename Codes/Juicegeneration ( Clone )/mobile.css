@@ -1,0 +1,120 @@
+/* ===== MOBILE HEADER STYLING ===== */
+@media (max-width: 768px) {
+
+  /* Header layout */
+  header {
+  
+    display: block;
+  }
+
+  /* Hide menu and search section */
+  .menu,
+  .search {
+    display: none;
+  }
+
+  /* Center the logo */
+  .image {
+    flex: 0;
+    text-align: center;
+  }
+
+  .image img {
+    width: 200px;
+  }
+
+
+
+  /* Carousel height adjustment for mobile */
+  .carosel {
+    height: 60vh;
+  }
+
+  .carosel .caroseltext {
+    width: 100%;
+        font-size: 40px;
+  }
+
+  /* Adjust card grid for smaller screens */
+  .maincard {
+    display: flex;
+        flex-direction: column;
+  }
+  .salma
+  {
+    margin-right: 0px;
+  }
+  .salmaprod h2 {
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: center;
+}
+.salmaprod{
+    align-items: center;
+}
+  /* Adjust product section */
+  .salmamain,
+  .mainjuice {
+    flex-direction: column;
+    height: auto;
+  }
+.salmaprod p {
+    font-size: 16px;
+    text-align: center;
+}
+  .salma img,
+  .picture img {
+    height: auto;
+  }
+
+ .scards {
+    flex-direction: column;
+} 
+  /* Footer layout stack vertically */
+  .footer-main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-logo {
+    flex: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .footer-column ul li {
+    font-size: 14px;
+  }
+  .shopbycollection{
+    font-size: 12px;
+  }
+
+.juice {
+    align-items: center;
+    margin-left: 0px;
+}
+
+.juice h2 {
+    font-size: 24px;
+padding-top: 20px;
+}
+.juice p {
+    font-size: 18px;
+    text-align: center;
+}
+.mainlocation {
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+}
