@@ -1,0 +1,324 @@
+:root {
+  --primary: #ff0000;
+  --hover: #d70000;
+}
+*
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+.container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  padding: 0% 10%;
+}
+.container h1
+{
+  color: red;
+  font-size: 40px;
+}
+.container a
+{
+  color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.banner
+{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0px;
+  left: 0px;
+
+}
+.banner .picture
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner .picture img
+{
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.6);
+  object-fit: cover;
+}
+.banner .banner-content
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.banner-content h1
+{
+  font-size: 65px;
+}
+.banner-content h2
+{
+  font-size: 24px;
+  font-weight: 300;
+}
+.banner-content p
+{
+  padding: 20px 0px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.email
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email input
+{
+  padding: 15px;
+    width: 300px;
+    max-width: 90%;
+    border: 1px solid #555;
+    background-color: #111;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.email a
+{
+  color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-left: 15px;
+}
+.trending
+{
+  background-color: black;
+  color: white;
+ padding: 5% 5%;
+}
+.maincard
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+
+}
+.card
+{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.card .number
+{
+  position: absolute;
+  bottom: 0px;
+  left: -50px;
+  font-size: 100px;
+  color: red;
+  padding: 0% 15%;
+font-weight: 700;
+}
+
+.Reasons
+{
+  background-color: black;
+  color: white;
+ padding: 5% 5%;
+}
+.Reasons .maincard
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.Reasons .card
+{
+  position: relative;
+  top: 0px;
+  left: 0px;
+
+}
+.Reasons .card img
+{
+  border-radius: 10px;
+
+}
+.Reasons .card .number
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  padding: 5% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.Reasons .card .number h3
+{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.Reasons .card .number p
+{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.faq {
+  background-color: #000;
+  color: white;
+ padding: 5% 5%;
+  font-family: Arial, sans-serif;
+  /* max-width: 800px; */
+   /* margin: auto; */
+}
+
+.faq h2 {
+  /* font-size: 32px; */
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #111;
+}
+
+.faq-question {
+  width: 100%;
+  background-color: #303030;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question:hover {
+  background-color: #444;
+}
+
+.faq-question span {
+  font-size: 24px;
+  transition: transform 0.3s;
+}
+
+.faq-answer {
+  background-color: #303030;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 20px;
+}
+
+.faq-answer p {
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+.get-started {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.get-started p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.email-form input {
+  padding: 15px;
+  width: 300px;
+  max-width: 90%;
+  border: 1px solid #555;
+  background-color: #111;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.email-form input::placeholder {
+  color: #aaa;
+}
+
+.email-form .btn {
+  color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+/* Footer links */
+.footer-links {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px;
+  /* text-align: center; */
+  padding: 5% 5%;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-top: 20px;
+  gap: 20px;
+  text-align: left;
+}
+
+.footer-grid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-grid li {
+  margin-bottom: 10px;
+}
