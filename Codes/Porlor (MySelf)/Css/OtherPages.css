@@ -1,0 +1,167 @@
+:root {
+  --primary: #895b27;
+  --hover: #ffd09a;
+  --text: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+                                      /* Privacy Policy */
+
+.privacy {
+  background-color: var(--hover);
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.privacy h2 {
+  color: var(--primary);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.privacy p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+}
+
+                                            /* Term and Condition */
+
+.terms {
+  background-color: var(--hover);
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.terms h2 {
+  color: var(--primary);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.terms p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+}
+
+                                          /* Blog */
+
+.blog {
+  background-color: var(--hover);
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.blog h2 {
+  color: var(--primary);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.blog p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+}
+                                          /* Order Track */
+
+.tracking {
+  background-color: var(--hover);
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.tracking h2 {
+  color: var(--primary);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.tracking p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+}
+                                          /* Faqs */
+
+.faqs {
+  background-color: var(--hover);
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.faqs h2 {
+  color: var(--primary);
+  font-size: 40px;
+  margin-bottom: 30px;
+  /* text-align: center; */
+}
+
+.faq-item {
+  margin-bottom: 30px;
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  color: #5b2c06;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+}
+                                          /* Testimonials */
+
+.testimonials {
+  background-color: var(--hover);
+  padding: 100px 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: var(--primary);
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 30px;
+}
+
+.testimonial {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.testimonial h4 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #5b2c06;
+}
